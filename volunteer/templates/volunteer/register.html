@@ -1,0 +1,73 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="{% static 'volunteer/style.css' %}">
+</head>
+
+
+<body>
+
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="/register/">Register</a>
+</nav>
+
+
+<div class="container">
+
+<h1>Join Our Climate Action Program 🌱</h1>
+
+
+{% if message %}
+<h2>{{ message }}</h2>
+{% endif %}
+
+
+<form method="POST">
+
+{% csrf_token %}
+
+
+<label>Name:</label>
+<input type="text" name="name">
+
+<br><br>
+
+
+<label>Email:</label>
+<input type="email" name="email">
+
+<br><br>
+
+
+<label>Phone:</label>
+<input type="text" name="phone">
+
+<br><br>
+
+
+<label>Interest:</label>
+<input type="text" name="interest">
+
+<br><br>
+
+
+<button type="submit">
+Register
+</button>
+
+
+</form>
+
+</div>
+
+
+</body>
+
+</html>

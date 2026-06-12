@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0fff4;
+    color: #333;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #2e8b57;
+    padding: 18px;
+    text-align: center;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    color: #d4ffcb;
+}
+
+
+/* Main container */
+
+.container {
+
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+
+}
+
+
+/* Hero section */
+
+.hero {
+
+    padding: 60px;
+    background: linear-gradient(
+        to right,
+        #d8ffe2,
+        #ffffff
+    );
+
+    border-radius: 15px;
+
+}
+
+
+h1 {
+
+    color: #2e8b57;
+    font-size: 40px;
+
+}
+
+
+p {
+
+    font-size: 18px;
+    line-height: 1.6;
+
+}
+
+
+/* Cards */
+
+.cards {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+
+}
+
+
+.card {
+
+    background: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px #cccccc;
+
+}
+
+
+.card h2 {
+
+    color: #2e8b57;
+
+}
+
+
+/* Form */
+
+form {
+
+    background: white;
+    padding: 30px;
+    width: 350px;
+    margin: auto;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px #cccccc;
+
+}
+
+
+input {
+
+    width: 90%;
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+}
+
+
+button {
+
+    background-color: #2e8b57;
+
+    color:white;
+
+    padding:12px 25px;
+
+    border:none;
+
+    border-radius:20px;
+
+    cursor:pointer;
+
+}
+
+
+button:hover {
+
+    background-color:#1f6b43;
+
+}
+
+
+/* Footer */
+
+footer {
+
+    background:#2e8b57;
+
+    color:white;
+
+    text-align:center;
+
+    padding:15px;
+
+    margin-top:40px;
+
+}
+
+.card img {
+
+    border-radius: 10px;
+
+    height: 150px;
+
+    object-fit: cover;
+
+}
+
+
+.hero img {
+
+    width: 80%;
+
+    border-radius: 15px;
+
+}
