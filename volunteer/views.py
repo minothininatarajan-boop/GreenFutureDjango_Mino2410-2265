@@ -32,5 +32,6 @@ def register(request):
     return render(request, 'volunteer/register.html')
 
 
+    
 
     
